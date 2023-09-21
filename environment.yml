@@ -1,6 +1,7 @@
 name: HPV-EM
 channels:
  - anaconda
+ - conda-forge
  - bioconda
 dependencies:
  - python=3.10.5
@@ -8,6 +9,7 @@ dependencies:
  - gcc_linux-64
  - gxx_linux-64
  - samtools
+ - conda-forge::ncurses
  - star
  - pip:
    - -r requirements.txt
