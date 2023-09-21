@@ -34,6 +34,10 @@ Running HPV-EM with the -h option (or --help) will print a desciption of its opt
 HPV-EM.py [-h] [-t THREADS] [-r REFERENCE] [--starviral STARVIRAL] [-o OUTNAME]
           [-d] [--tpm TPM] [-p] [-k] [-v] -s STARGENOME reads1 [reads2]
 ```
+### Example
+```bash
+python HPV-EM.py --threads 40 --reference reference/combined_pave_hpv.fa --annotation reference/hpv_gene_annot.tsv --starviral reference/combined_pave_hpv_STAR/ --outname ./SAMPLE_NAME --stargenome reference/ data/READ1.fastq.gz data/READ2.fastq.gz
+```
 ### Optional arguments
 - -h, --help  
       Prints the help menu, which contains an example of the function usage and abbreviated explanations of each of the options.
